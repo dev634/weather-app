@@ -16,5 +16,8 @@
     "handlebars": "^4.1.2",
     "hbs": "^4.0.4",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
