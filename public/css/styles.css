@@ -56,3 +56,7 @@ button{
    background: #888888;
    color: white;
 }
+
+#message-2{
+   line-height: 38px;
+}
