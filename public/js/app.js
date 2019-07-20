@@ -1,6 +1,3 @@
-console.clear()
-console.log('Client side javascript is loaded ...')
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.getElementById('message-1')
@@ -11,7 +8,6 @@ messageOne.textContent = 'No forecast matches'
 
 weatherForm.addEventListener('submit', (e) => {
       e.preventDefault()
-      console.clear()
       const location = search.value
       messageOne.textContent = 'Loading ...'
       messageTwo.textContent = ''
